@@ -2,7 +2,7 @@
 
 Goal: Repeat code using while and for loops.
 
-Time: About 30—40 minutes
+Time: About 30-40 minutes
 
 You will learn:
 
@@ -10,7 +10,7 @@ You will learn:
 - while loops (repeat while a condition is true)
 - for loops (repeat a known number of times)
 - How to avoid infinite loops
-Before this lesson: Lessons 1—4 (main, variables, math, if / comparisons).
+Before this lesson: Lessons 1-4 (main, variables, math, if / comparisons).
 
 Sample code file (separate):
 
@@ -62,7 +62,7 @@ Go!
 
 while (count > 0): Keep looping as long as this is true
 
-{ ... }: Body — runs each time
+{ ... }: Body - runs each time
 
 count--: Must change something, or the condition never becomes false
 
@@ -110,7 +110,7 @@ i <= 5: Keep going while this is true
 
 i++: After each pass, add 1 to i
 
-This for loop does the same kind of work as a while with a counter — just in one line of setup.
+This for loop does the same kind of work as a while with a counter - just in one line of setup.
 
 ### for vs while
 
@@ -139,9 +139,9 @@ for (int match = 1; match <= 3; match++) {
 
 ### Common mistakes
 
-- Infinite loop — forgot to update the counter / condition
-- Off-by-one — i < 5 vs i <= 5 (4 times vs 5 times)
-- Semicolon after while — while (x > 0); { } loops on an empty statement
+- Infinite loop - forgot to update the counter / condition
+- Off-by-one - i < 5 vs i <= 5 (4 times vs 5 times)
+- Semicolon after while - while (x > 0); { } loops on an empty statement
 - Using = instead of == or <= in the condition
 - Declaring the counter outside and forgetting to reset it if you run another loop
 ---
@@ -150,11 +150,11 @@ for (int match = 1; match <= 3; match++) {
 
 Edit `Main.java`. Put **all** challenge code inside `main`.
 
-### Challenge 1 â€” while countdown
+### Challenge 1 - while countdown
 
 Start at `5`. While greater than `0`, print the number, then subtract `1`. After the loop print `Launch`.
 
-### Challenge 2 â€” for practice laps
+### Challenge 2 - for practice laps
 
 Use a `for` loop to print:
 
@@ -165,11 +165,11 @@ Practice lap 3
 Practice lap 4
 ```
 
-### Challenge 3 â€” Sum with a loop
+### Challenge 3 - Sum with a loop
 
 Add `1` through `4` into `int total` (start at `0`). Print `total` (`10`).
 
-### Challenge 4 â€” Loop + if
+### Challenge 4 - Loop + if
 
 Loop `i` from `0` to `5`. Print `even: ` + i or `odd: ` + i using `i % 2`.
 
