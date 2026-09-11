@@ -173,27 +173,26 @@ Add `1` through `4` into `int total` (start at `0`). Print `total` (`10`).
 
 Loop `i` from `0` to `5`. Print `even: ` + i or `odd: ` + i using `i % 2`.
 
-### Check your understanding
+## Check your understanding
 
-1. What has to become false for a while loop to stop?
+1. <details>
+     <summary>What has to become false for a `while` loop to stop?</summary>
+     The condition in the parentheses.
+   </details>
+2. <details>
+     <summary>In `for (int i = 0; i < 3; i++)`, how many times does the body run?</summary>
+     Three times (`i` is 0, 1, 2).
+   </details>
+3. <details>
+     <summary>What is an infinite loop?</summary>
+     A loop whose condition never becomes false.
+   </details>
+4. <details>
+     <summary>When would you pick `for` over `while`?</summary>
+     When you are counting a known range / repeating N times.
+   </details>
 
-2. In for (int i = 0; i < 3; i++), how many times does the body run?
-
-3. What is an infinite loop?
-
-4. When would you pick for over while?
-
-Answers
-
-1. The condition in the parentheses.
-
-2. Three times (i is 0, 1, 2).
-
-3. A loop whose condition never becomes false.
-
-4. When you are counting a known range / repeating N times.
-
-### Looking ahead
+## Looking ahead
 
 In Lesson 6, you will wrap work into methods so main can call named recipes (greet, add, later driveForward) instead of repeating big blocks.
 
