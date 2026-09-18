@@ -150,6 +150,8 @@ for (int match = 1; match <= 3; match++) {
 
 Edit `Main.java`. Put **all** challenge code inside `main`.
 
+Do **not** edit `MainTest.java` - that file checks your work automatically when you open a pull request. You only need to change `Main.java`.
+
 ### Challenge 1 - while countdown
 
 Start at `5`. While greater than `0`, print the number, then subtract `1`. After the loop print `Launch`.
