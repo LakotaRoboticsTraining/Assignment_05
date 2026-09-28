@@ -148,9 +148,9 @@ for (int match = 1; match <= 3; match++) {
 
 ## Try it yourself
 
-Edit `Main.java`. Put **all** challenge code inside `main`.
+Edit `src/main/java/Main.java`. Put **all** challenge code inside `main`.
 
-Do **not** edit `MainTest.java` - that file checks your work automatically when you open a pull request. You only need to change `Main.java`.
+Do **not** edit `src/test/java/MainTest.java` - that file checks your work automatically when you open a pull request. You only need to change `src/main/java/Main.java`.
 
 ### Challenge 1 - while countdown
 
