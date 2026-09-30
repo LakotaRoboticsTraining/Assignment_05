@@ -4,35 +4,40 @@ import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import java.util.Locale;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 class MainTest {
 
     @Test
+    @DisplayName("Challenge 1: while countdown then Launch")
     void challenge1_whileCountdownThenLaunch() {
         String out = runMain().toLowerCase(Locale.ROOT);
         assertTrue(out.contains("5") && out.contains("1") && out.contains("launch"),
-            "Challenge 1: while countdown 5..1 then print Launch.");
+            "challenge1 failed - while-loop countdown should print 5..1 and then Launch.");
     }
 
     @Test
+    @DisplayName("Challenge 2: for practice laps")
     void challenge2_forPracticeLaps() {
         String out = runMain().toLowerCase(Locale.ROOT);
         assertTrue(out.contains("practice lap 1") && out.contains("practice lap 4"),
-            "Challenge 2: print Practice lap 1 through Practice lap 4.");
+            "challenge2 failed - print Practice lap 1 through Practice lap 4 (for loop).");
     }
 
     @Test
+    @DisplayName("Challenge 3: sum with a loop")
     void challenge3_sumWithLoop() {
         assertTrue(runMain().contains("10"),
-            "Challenge 3: sum 1..4 and print 10.");
+            "challenge3 failed - sum 1..4 with a loop and print 10.");
     }
 
     @Test
+    @DisplayName("Challenge 4: even/odd in a loop")
     void challenge4_loopWithEvenOdd() {
         String out = runMain().toLowerCase(Locale.ROOT);
         assertTrue(out.contains("even") && out.contains("odd"),
-            "Challenge 4: print even:/odd: lines for i = 0..5.");
+            "challenge4 failed - loop i = 0..5 and print even:/odd: lines.");
     }
 
     private static String runMain() {
